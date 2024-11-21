@@ -7,6 +7,7 @@ type Props = {
 };
 
 export const CardsCategory: FC<Props> = ({ title, totals }) => {
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   const memoTotals = useMemo(() => totals, []);
   const { categoryFilter, setFilterMealsByCategory } = useMealsStore();
 

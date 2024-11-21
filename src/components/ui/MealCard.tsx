@@ -3,7 +3,6 @@ import { FC } from "react";
 import { useRouter } from "next/navigation";
 import Image from "next/image";
 import { FaHeart, FaClock, FaUtensils, FaStar } from "react-icons/fa";
-import Link from "next/link";
 import { useMealsStore } from "@/src/store";
 
 type Props = {

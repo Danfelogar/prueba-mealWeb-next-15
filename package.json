@@ -1,16 +1,21 @@
 {
   "name": "meal-web",
   "version": "0.1.0",
+  "homepage": "https://github.com/Danfelogar/prueba-mealWeb-next-15",
   "private": true,
   "scripts": {
+    "install": "npm install --legacy-peer-deps",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "deploy": "gh-pages -d build",
+    "export": "next export"
   },
   "dependencies": {
     "@next/env": "^15.0.3",
     "axios": "^1.7.7",
+    "gh-pages": "^6.2.0",
     "next": "15.0.3",
     "react": "19.0.0-rc-66855b96-20241106",
     "react-dom": "19.0.0-rc-66855b96-20241106",

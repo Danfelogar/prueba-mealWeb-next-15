@@ -5,7 +5,6 @@ import { useMealsStore } from "@/src/store";
 import Image from "next/image";
 import { useEffect } from "react";
 import { IoSearch } from "react-icons/io5";
-import { FaHeart, FaClock, FaUtensils } from "react-icons/fa";
 
 export const HomeScreen = () => {
   const {
@@ -20,11 +19,13 @@ export const HomeScreen = () => {
   } = useMealsStore();
   useEffect(() => {
     fetchCategories();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   useEffect(() => {
     if (categoryFilter) filterMealsByCategory();
     else if (categoryFilter === null) fetchMeals();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [categoryFilter]);
 
   console.log({ mealsFilters });
