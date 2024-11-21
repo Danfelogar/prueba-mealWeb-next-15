@@ -1,0 +1,15 @@
+{
+  "exportall.config.folderListener": [
+    "/src/utils",
+    "/src/store",
+    "/src/screens",
+    "/src/components",
+    "/src",
+    "/src/store/types",
+    "/src/services",
+    "/src/screens/Home",
+    "/src/components/layouts",
+    "/src/components/ui",
+    "/src/screens/meal"
+  ]
+}
