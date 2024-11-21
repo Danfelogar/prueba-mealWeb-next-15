@@ -1,16 +1,12 @@
 {
   "name": "meal-web",
   "version": "0.1.0",
-  "homepage": "https://github.com/Danfelogar/prueba-mealWeb-next-15",
   "private": true,
   "scripts": {
-    "install": "npm install",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
-    "deploy": "gh-pages -d build",
-    "export": "next export"
+    "lint": "next lint"
   },
   "dependencies": {
     "@next/env": "^15.0.3",
