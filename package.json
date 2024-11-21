@@ -4,7 +4,7 @@
   "homepage": "https://github.com/Danfelogar/prueba-mealWeb-next-15",
   "private": true,
   "scripts": {
-    "install": "npm install --legacy-peer-deps",
+    "install": "npm install",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
